@@ -22,7 +22,7 @@
                     />
                 </a>
             </div>
-            <div class="flex items-center justify-between w-full px-4">
+            <div class="flex items-center justify-end w-full px-4">
                 <div>
                     <x-navbar-humburger  @click="navbarOpen = !navbarOpen"
                                          x-bind:class="navbarOpen && 'navbarTogglerActive'" />
@@ -38,20 +38,6 @@
                             @endforeach()
                         </ul>
                     </nav>
-                </div>
-                <div class="justify-end hidden pr-16 sm:flex lg:pr-0">
-                    <a
-                        href="javascript:void(0)"
-                        class="py-3 text-base font-medium px-7 text-dark dark:text-white hover:text-primary"
-                    >
-                        Login
-                    </a>
-                    <a
-                        href="javascript:void(0)"
-                        class="py-3 text-base font-medium text-white rounded-md bg-primary px-7 hover:bg-primary/90"
-                    >
-                        Sign Up
-                    </a>
                 </div>
             </div>
         </div>
