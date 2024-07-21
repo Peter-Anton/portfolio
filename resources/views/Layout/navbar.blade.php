@@ -11,14 +11,9 @@
             <div class="max-w-full px-4 w-60">
                 <a href="javascript:void(0)" class="block w-full py-5">
                     <img
-                        src="https://cdn.tailgrids.com/2.0/image/assets/images/logo/logo-primary.svg"
+                        src="{{asset('images/port_photo.JPG')}}"
                         alt="logo"
-                        class="dark:hidden"
-                    />
-                    <img
-                        src="https://cdn.tailgrids.com/2.0/image/assets/images/logo/logo-white.svg"
-                        alt="logo"
-                        class="hidden dark:block"
+                        class="rounded-full w-16 h-16 object-cover object-center "
                     />
                 </a>
             </div>

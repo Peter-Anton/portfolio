@@ -1,15 +1,15 @@
-    <!-- ====== Footer Section Start -->
-    <footer
-        class="bg-gray-200 dark:bg-slate-800 py-8 relative z-10">
-        <div class="container">
-            <div class="flex flex-wrap justify-between">
-                        <span class="inline-flex items-center text-xl" >
+<!-- ====== Footer Section Start -->
+<footer
+    class="bg-gray-200 dark:bg-slate-800 py-8 relative z-10">
+    <div class="container">
+        <div class="flex flex-wrap justify-between">
+                        <span class="inline-flex items-center text-xl xl:text-3xl text-amber-50">
                             Follow me on social media
                         </span>
-                <x-social-media-item class="mb-0"/>
-            </div>
-            </div>
-        <div>
+            <x-social-media-item />
+        </div>
+    </div>
+    <div>
       <span class="absolute left-0 bottom-0 z-[-1]">
          <svg
              width="217"
@@ -31,13 +31,13 @@
                    y2="1.22829e-05"
                    gradientUnits="userSpaceOnUse"
                >
-                  <stop stop-color="#3056D3" stop-opacity="0.08" />
-                  <stop offset="1" stop-color="#C4C4C4" stop-opacity="0" />
+                  <stop stop-color="#3056D3" stop-opacity="0.08"/>
+                  <stop offset="1" stop-color="#C4C4C4" stop-opacity="0"/>
                </linearGradient>
             </defs>
          </svg>
       </span>
-            <span class="absolute top-10 right-10 z-[-1]">
+        <span class="absolute top-10 right-10 z-[-1]">
          <svg
              width="75"
              height="75"
@@ -58,12 +58,12 @@
                    y2="37.5"
                    gradientUnits="userSpaceOnUse"
                >
-                  <stop stop-color="#13C296" stop-opacity="0.31"  offset=""/>
-                  <stop offset="1" stop-color="#C4C4C4" stop-opacity="0" />
+                  <stop stop-color="#13C296" stop-opacity="0.31" offset=""/>
+                  <stop offset="1" stop-color="#C4C4C4" stop-opacity="0"/>
                </linearGradient>
             </defs>
          </svg>
       </span>
-        </div>
-    </footer>
-    <!-- ====== Footer Section End -->
+    </div>
+</footer>
+<!-- ====== Footer Section End -->
